@@ -1,2 +1,2 @@
 # prompt-collection
-Repositiory for collection of prompts to be used in LLMs
+Repository for collection of prompts to be used in LLMs
