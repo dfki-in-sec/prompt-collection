@@ -18,6 +18,26 @@ Contributing to this repository is easy! If you have a better prompt structure f
 3. Discuss Existing Prompts: Feel free to participate in discussions on existing prompts. Your insights and perspectives can help refine and improve the wording or relevance of the prompts.
 4. Feedback and Suggestions: We welcome feedback and suggestions on how to improve the survey process or the repository itself. If you have any ideas or recommendations, please create an issue and label it as "Feedback" or "Suggestions".
 
+# Types of Honeytokens
+1. config file
+2. database schema
+3. honeywords or passwords
+4. item invoice
+5. log file
+6. robots.txt file
+7. services and ports
+
+# Large Language Models (LLMs)
+BARD (Google), ChatGPT(OpenAI) and LLaMA (Meta) were used to generate responses from the prompts
+
+# Structure of the prompts
+ #### The prompts are essentially 4-part: ####
+
+   "Act as a" + "honeytoken_type" + "details of the user" + "give/do not give explanations" </br>
+
+   **Example Prompt:**</br>
+   "**Act as a** **Log file generator**. Based on the given information, return a log file for that service. **Consider the following information**: {Service: Apache, Version: 2.0.44}. Only reply with the Log file and nothing else. **Do not write explanations**."
+
 # Code of Conduct
 Please note that this repository follows a Code of Conduct. We expect all contributors to adhere to these guidelines and maintain a respectful and inclusive environment for everyone.
 
