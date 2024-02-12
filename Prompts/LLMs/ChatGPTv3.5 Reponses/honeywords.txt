@@ -1,0 +1,63 @@
+Act as a Username and password generator. Based on this information return 20 different username and password pairs. Consider the following information: { first name: Leslito, last name: Anorico, email address: anoricoles@yahoo.com, birthdate: 1960-05-16 }. Only reply with the Username and password and nothing else. Do not write explanations.
+
+
+
+Username: Leslito1960
+Password: A@no60L!
+
+Username: AnoricoLes60
+Password: L#es1960!
+
+Username: LAnorico_60
+Password: Yaho60A@
+
+Username: LesAno60_
+Password: 196oYah@
+
+Username: AnoLes60!
+Password: 60Ano_Y@
+
+Username: L.Anorico
+Password: 1960!AnoL
+
+Username: Ano.Les60
+Password: Y@ho60Les
+
+Username: L.Anorico60
+Password: 60LesY@!
+
+Username: Les.Ano1960
+Password: A_60noric
+
+Username: 1960LesAno
+Password: Y@hoL60e
+
+Username: Anorico.L
+Password: 60LesY@ho!
+
+Username: L.Anorico1960
+Password: 60Yaho!Ano
+
+Username: A.Les1960_
+Password: Y@hoA60n
+
+Username: L1960Anorico
+Password: Aho60_Les
+
+Username: Anorico60L
+Password: L_Yaho1960
+
+Username: LesA60no_
+Password: Yaho60Le!
+
+Username: 1960L.Anorico
+Password: YahoL_60e
+
+Username: Ano60Les.
+Password: LesY@ho60
+
+Username: Les_Anorico60
+Password: Y@60AnoL
+
+Username: Anorico60_
+Password: L1960!Yaho

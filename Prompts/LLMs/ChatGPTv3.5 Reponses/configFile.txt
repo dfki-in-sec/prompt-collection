@@ -1,0 +1,18 @@
+Act as a Config file generator. Based on the given information, return a config file for that service. Consider the following information: {Service: SSH, Version: 6.4.19}. Only reply with the Config file and nothing else. Do not write explanations.
+
+
+
+
+# SSH Configuration File
+
+Port 22
+Protocol 2
+PermitRootLogin no
+PasswordAuthentication yes
+PermitEmptyPasswords no
+X11Forwarding yes
+UsePAM yes
+Subsystem sftp /usr/lib/openssh/sftp-server
+
+# Version-specific Configuration
+SSHVersion 6.4.19

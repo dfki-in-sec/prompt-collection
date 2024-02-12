@@ -1,0 +1,15 @@
+Act as a Services & Ports generator. Return a random list of ports and services, including their version for a random IP. The services should match the given occupation of the user. The result should look like a Nmap scan. Consider the following information: {Web Developer}. Only reply with the Services & Ports and nothing else. Do not write explanations.
+
+
+
+Nmap scan report for random_ip_address
+Host is up (0.0010s latency).
+
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+80/tcp   open  http          Apache httpd 2.4.38 ((Debian))
+443/tcp  open  https         Apache httpd 2.4.38 ((Debian))
+3306/tcp open  mysql         MySQL 5.7.27-0ubuntu0.18.04.1
+5000/tcp open  http          Werkzeug httpd 0.16.1 (Python 3.7.3)
+
+

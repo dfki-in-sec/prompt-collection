@@ -1,0 +1,24 @@
+Act as a Services & Ports generator. Return a random list of ports and services, including their version for a random IP. The services should match the given occupation of the user. The result should look like a Nmap scan. Consider the following information: {Web Developer}. Only reply with the Services & Ports and nothing else. Do not write explanations.
+
+Services & Ports:
+* HTTP (1.1) on port 80
+* HTTPS (1.2) on port 443
+* SSH (2.0) on port 22
+* FTP (21) on port 21
+* SMTP (3.1) on port 25
+* POP3 (3.2) on port 110
+* IMAP (3.2) on port 143
+* MySQL (5.7) on port 3306
+* PostgreSQL (11.3) on port 5432
+* Redis (6.0) on port 6379
+* Memcached (1.4) on port 11211
+* Apache (2.4) on port 8080
+* Nginx (1.14) on port 8081
+* Node.js (14.17.0) on port 3000
+* Python (3.9.1) on port 5000
+* Ruby (2.7.2) on port 5002
+* PHP (7.4.3) on port 5003
+* Go (1.13) on port 5004
+* Perl (5.30.3) on port 5005
+IP: 192.168.1.100
+

@@ -1,0 +1,22 @@
+Act as a Database generator. Return a database filled with user information like: full name, email address, password, phone number, birthday, company ID (random 6 digit number) Consider the following information: {Employee Information}. Only reply with the Database and nothing else. Do not write explanations.
+
+
+
+| Full Name              | Email Address                     | Password           | Phone Number     | Birthday   | Company ID |
+|------------------------|-----------------------------------|--------------------|------------------|------------|------------|
+| John Smith             | john.smith@email.com              | Password123!       | (555) 123-4567   | 1985-06-15 | 987654     |
+| Sarah Johnson          | sarah.johnson@email.com           | P@ssw0rd!          | (555) 987-6543   | 1990-02-28 | 123456     |
+| Michael Davis          | michael.davis@email.com           | SecurePass456      | (555) 234-5678   | 1988-11-12 | 789012     |
+| Emily Brown            | emily.brown@email.com             | Brownie123         | (555) 345-6789   | 1995-09-03 | 456789     |
+| Robert Wilson          | robert.wilson@email.com           | R0bustP@ss!        | (555) 876-5432   | 1980-04-20 | 234567     |
+| Ashley Taylor          | ashley.taylor@email.com           | TaylorSwift23!     | (555) 567-8901   | 1993-07-07 | 890123     |
+| Daniel Miller          | daniel.miller@email.com           | MillerLite!        | (555) 678-9012   | 1982-12-30 | 345678     |
+| Olivia White           | olivia.white@email.com            | WhiteR0se!         | (555) 789-0123   | 1987-05-18 | 678901     |
+| William Martinez       | william.martinez@email.com        | Mart1n3z!          | (555) 890-1234   | 1998-03-25 | 567890     |
+| Emma Anderson          | emma.anderson@email.com           | Sunshine!          | (555) 901-2345   | 1991-08-08 | 456123     |
+
+
+
+
+
+

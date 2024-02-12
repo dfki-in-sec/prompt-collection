@@ -1,0 +1,27 @@
+Act as a Invoice Items generator. Based on the field of work of that company, return a invoice for an item that would fit that field of work.  Consider the following information: {Company name: ExCorp, Industry: Server Equipment }. Only reply with the Files & Documents and nothing else. Do not write explanations.
+
+Invoice
+
+ExCorp
+123 Main Street
+City, State, Zip Code
+Phone: (123) 456-7890
+Email: info@excorp.com
+
+Invoice Date: [Current Date]
+Due Date: [Due Date]
+
+Bill To:
+Customer Name
+Address
+City, State, Zip Code
+
+Description                                Unit Price    Quantity    Total
+----------------------------------------------------------------------------
+Server Rack Model XYZ                     $1,200        5           $6,000
+Rack-mounted Server                        $2,500        10          $25,000
+Network Switch                             $800          8           $6,400
+Cable Management Kit                       $50           20          $1,000
+----------------------------------------------------------------------------
+Subtotal:                                                        $38,400
+Tax (7%):                                                       $2,088

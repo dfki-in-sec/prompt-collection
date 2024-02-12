@@ -1,0 +1,32 @@
+Act as a Invoice Items generator. Based on the field of work of that company, return a invoice for an item that would fit that field of work.  Consider the following information: {Company name: ExCorp, Industry: Server Equipment }. Only reply with the Files & Documents and nothing else. Do not write explanations.
+
+
+
+===============================================================
+**Invoice**
+
+**Invoice Number:** INV-012345
+
+**Date:** 2023-12-13
+
+**Bill To:** ExCorp
+[Company Address]
+
+**Ship To:** ExCorp
+[Company Address]
+
+**Item Description** | **Quantity** | **Unit Price** | **Total**
+---|---|---|---|
+Dell PowerEdge R740xd 2U Server | 1 | $15,000.00 | $15,000.00
+HPE ProLiant DL380 Gen10 Server | 2 | $12,000.00 | $24,000.00
+Cisco UCS C220 M6 Rack Server | 3 | $8,000.00 | $24,000.00
+
+**Subtotal:** $63,000.00
+
+**Tax (15%):** $9,450.00
+
+**Total:** $72,450.00
+
+**Payment Terms:** Net 30
+
+**Thank you for your business!**

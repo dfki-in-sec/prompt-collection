@@ -1,0 +1,81 @@
+Act as a Config file generator. Based on the given information, return a config file for that service. Consider the following information: {Service: SSH, Version: 6.4.19}. Only reply with the Config file and nothing else. Do not write explanations.
+
+
+
+===============================================================
+[global]
+
+# Port to listen on
+port 22
+
+# Address to listen on
+address 0.0.0.0
+
+# Enable protocol v2
+protocol 2
+
+# Enable protocol v1
+protocol 1
+
+# Use the default server key (/etc/ssh/ssh_host_rsa_key)
+hostkey /etc/ssh/ssh_host_rsa_key
+
+# Use the default loopback key (/etc/ssh/ssh_host_ecdsa_key)
+hostkey ecdsa /etc/ssh/ssh_host_ecdsa_key
+
+# Use the default ED25519 key (/etc/ssh/ssh_host_ed25519_key)
+hostkey ed25519 /etc/ssh/ssh_host_ed25519_key
+
+# Use the default log file (/var/log/auth.log)
+loglevel INFO
+
+# Enable logging to syslog
+syslog facility AUTH
+
+# Enable logging to stderr
+logfile auth.log
+
+# Enable logging to /dev/null
+logfile /dev/null
+
+# Enable logging to a custom file (/path/to/logfile)
+logfile /path/to/logfile
+
+# Enable logging to a custom format (/path/to/format)
+logformat %d %t "pam_unix(sshd:auth): user %u successful login"
+
+# Define a custom log format
+logformat sshd "%d %h %l %u %t %r %s %b"
+
+# Set the maximum number of concurrent login attempts
+maxStartups 10
+
+# Set the maximum number of concurrent users
+maxSessions 10
+
+# Set the maximum idle time for a session
+sessionTimeout 300
+
+# Set the maximum inactivity time before disconnect
+clientAliveInterval 300
+
+# Set the maximum number of failed attempts before disconnect
+clientAliveCountMax 3
+
+# Allow users from the local network to connect
+AllowUsers 10.0.0.1 10.0.0.2
+
+# Allow users from a specific subnet to connect
+AllowUsers 10.0.0.0/8
+
+# Allow users from a specific range of IP addresses to connect
+AllowUsers 10.0.1.0-10.0.1.100
+
+# Deny users from a specific subnet to connect
+DenyUsers 10.0.0.0/8
+
+# Deny users from a specific range of IP addresses to connect
+DenyUsers 10.0.1.0-10.0.1.100
+
+# Use a custom sshd_config file (/path/to/config)
+Include /path/to/config

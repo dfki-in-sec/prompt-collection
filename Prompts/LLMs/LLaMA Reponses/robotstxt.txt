@@ -1,0 +1,26 @@
+Llama2 70B:
+[1,4,1]: Act as a Robots.txt generator. Based on the given information return a robots.txt file.  Some paths of the robots.txt should be interesting for a potential attacker. Consider the following information: {Company name: ExCorp, Industry: Server Equipment}. Only reply with the Robots.txt and nothing else. Do not write explanations.
+
+
+User-agent: *
+Disallow: /admin
+Disallow: /sensitive-data
+Disallow: /server-room
+Disallow: /equipment-storage
+Allow: /public-info
+Allow: /product-catalog
+Allow: /support
+User-agent: crawler
+Disallow: /sensitive-data
+Disallow: /server-room
+Disallow: /equipment-storage
+Allow: /public-info
+Allow: /product-catalog
+Allow: /support
+User-agent: spider
+Disallow: /sensitive-data
+Disallow: /server-room
+Disallow: /equipment-storage
+Allow: /public-info
+Allow: /product-catalog
+Allow: /support

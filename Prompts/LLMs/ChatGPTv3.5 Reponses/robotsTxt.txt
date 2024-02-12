@@ -1,0 +1,74 @@
+Act as a Robots.txt generator. Based on the given information return a robots.txt file.  Some paths of the robots.txt should be interesting for a potential attacker. Consider the following information: {Company name: ExCorp, Industry: Server Equipment}. Only reply with the Robots.txt and nothing else. Do not write explanations.
+
+
+
+
+User-agent: *
+Disallow: /admin/
+Disallow: /database/
+Disallow: /config/
+Disallow: /backup/
+Disallow: /logs/
+Disallow: /private/
+Disallow: /system/
+Disallow: /scripts/
+Disallow: /tools/
+Disallow: /temp/
+Disallow: /download/
+Disallow: /upload/
+Disallow: /cgi-bin/
+Disallow: /phpmyadmin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/uploads/
+Disallow: /includes/
+Disallow: /lib/
+Disallow: /tmp/
+Disallow: /archive/
+Disallow: /old/
+Disallow: /test/
+Disallow: /dev/
+Disallow: /debug/
+Disallow: /demo/
+Disallow: /install/
+Disallow: /setup/
+Disallow: /config/
+Disallow: /backup/
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /uploads/
+Disallow: /download/
+Disallow: /logs/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /scripts/
+Disallow: /tools/
+Disallow: /admin/
+Disallow: /webadmin/
+Disallow: /web/
+Disallow: /cp/
+Disallow: /panel/
+Disallow: /backend/
+Disallow: /config/
+Disallow: /install/
+Disallow: /setup/
+Disallow: /management/
+Disallow: /phpmyadmin/
+Disallow: /upload/
+Disallow: /user/
+Disallow: /users/
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-json/
+Disallow: /wp-*
+Disallow: /xmlrpc.php
+Disallow: /rss/
+Disallow: /feed/
+Disallow: /trackback/
+Disallow: /comments/
+Disallow: /comment/
+Disallow: /?s=*
+

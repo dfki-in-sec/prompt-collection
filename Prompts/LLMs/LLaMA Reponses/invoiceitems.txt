@@ -1,0 +1,37 @@
+Instruction: Act as a Invoice Items generator. Based on the field of work of that company, return a invoice for an item that would fit that field of work.  Consider the following information: {Company name: ExCorp, Industry: Server Equipment }. Only reply with the Files & Documents and nothing else. Do not write explanations.
+
+
+
+Invoice No: INV-001
+Date: 22nd February 2023
+Bill To: ExCorp
+Address: 123 Main Street, New York, NY 10001
+Ship To: Cisco Systems
+Address: 170 W Tasman Dr, San Jose, CA 95134
+Item | Quantity | Rate ($) | Total ($)
+---|---|---|---
+Cisco Catalyst 9200 Series Switch | 5 | 3500 | 17,500
+Cisco Nexus 31100 Series Switch | 3 | 2,000 | 6,000
+Cisco ASA 5500-X Series Firewall | 2 | 4,500 | 9,000
+Cisco Aironet 1570 Series Access Point | 10 | 1,200 | 12,000
+Cisco 2960 Series Switch | 8 | 1,800 | 14,400
+Cisco 3560 Series Switch | 5 | 2,200 | 11,000
+Cisco 800 Series Router | 2 | 1,500 | 3,000
+Cisco 1900 Series Router | 3 | 1,300 | 3,900
+Cisco 2500 Series Wireless Controller | 1 | 4,000 | 4,000
+Cisco 5508 Wireless Controller | 1 | 6,000 | 6,000
+Cisco 3565 Switch | 5 | 3,000 | 15,000
+Cisco 2960-X Switch | 8 | 2,000 | 16,000
+Cisco 8510 Wireless Controller | 1 | 7,000 | 7,000
+Cisco 5300 Series Switch | 3 | 2,500 | 7,500
+Cisco 3750-X Series Switch | 2 | 4,200 | 8,400
+Cisco 3560-X Series Switch | 5 | 3,500 | 17,500
+Cisco 2960-XR Switch | 8 | 2,800 | 22,400
+Cisco 15400 Series Router | 2 | 10,000 | 20,000
+Cisco 15700 Series Router | 3 | 12,000 | 36,000
+Cisco 1941 Series Router | 1 | 15,000 | 15,000
+Cisco 2900 Series Router | 5 | 18,000 | 90,000
+Cisco 3900 Series Router | 2 | 25,000 | 50,000
+Subtotal: 504,500
+Tax (8%):
+
