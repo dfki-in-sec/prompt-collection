@@ -28,7 +28,7 @@ Contributing to this repository is easy! If you have a better prompt structure f
 7. services and ports
 
 # Large Language Models (LLMs)
-BARD (Google), ChatGPT(OpenAI) and LLaMA (Meta) were used to generate responses from the prompts
+Gemini (Previously known as Bard by Google), ChatGPT(OpenAI) and LLaMA (Meta) were used to generate responses from the prompts
 
 # Code of Conduct
 Please note that this repository follows a Code of Conduct. We expect all contributors to adhere to these guidelines and maintain a respectful and inclusive environment for everyone.
