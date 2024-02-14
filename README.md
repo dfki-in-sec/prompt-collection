@@ -1,4 +1,4 @@
-# Prompt Collection for "<TBD>"
+# Prompt Collection for Cyber Deception
 Welcome to the Prompt Collections Repository! This repository is created to collect prompts for [our paper](https://github.com/dfki-in-sec/Act-as-a-Honeytoken-Generator 'Act-as-a-Honeytoken-Generator'). Gathering user feedback is crucial for improving our research, and your input is invaluable in this process.
 
 # Purpose
@@ -29,14 +29,6 @@ Contributing to this repository is easy! If you have a better prompt structure f
 
 # Large Language Models (LLMs)
 BARD (Google), ChatGPT(OpenAI) and LLaMA (Meta) were used to generate responses from the prompts
-
-# Structure of the prompts
- #### The prompts are essentially 4-part: ####
-
-   "Act as a" + "honeytoken_type" + "details of the user" + "give/do not give explanations" </br>
-
-   **Example Prompt:**</br>
-   "**Act as a** **Log file generator**. Based on the given information, return a log file for that service. **Consider the following information**: {Service: Apache, Version: 2.0.44}. Only reply with the Log file and nothing else. **Do not write explanations**."
 
 # Code of Conduct
 Please note that this repository follows a Code of Conduct. We expect all contributors to adhere to these guidelines and maintain a respectful and inclusive environment for everyone.
