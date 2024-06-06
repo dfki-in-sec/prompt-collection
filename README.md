@@ -1,5 +1,5 @@
 # Prompt Collection for Cyber Deception
-Welcome to the Prompt Collections Repository! This repository is created to collect prompts for [our paper](https://github.com/redacted). Gathering user feedback is crucial for improving our research, and your input is invaluable in this process.
+Welcome to the Prompt Collections Repository! This repository is created to collect prompts for [our paper](https://arxiv.org/abs/2404.16118). Gathering user feedback is crucial for improving our research, and your input is invaluable in this process.
 
 # Purpose
 The primary purpose of this repository is to provide a centralized location for submitting, discussing, and organizing prompts for some defined categories that can be used to create Honeytoken. By collecting a wide range of prompts from various users, we aim to study varied ways of conversing with Large Language Models (LLMs) like Bard, ChatGPT, LLaMA etc. on how they respond to such prompts.
